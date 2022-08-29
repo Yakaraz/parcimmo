@@ -1,0 +1,1401 @@
+{
+ 
+  "Dic4": {
+    "name": "progress",
+    "items": [
+      {
+        "key": "todo",
+        "value": "À faire"
+      },
+      {
+        "key": "doing",
+        "value": "En cours"
+      },
+      {
+        "key": "done",
+        "value": "Effectué"
+      }
+    ]
+  },
+  "Dic5": {
+    "name": "rentable",
+    "items": [
+      {
+        "key": "I",
+        "value": "En l'état"
+      },
+      {
+        "key": "NW",
+        "value": "Avec travaux d'embellissement"
+      },
+      {
+        "key": "NHW",
+        "value": "Avec travaux lourds"
+      }
+    ]
+  },
+  "Dic6": {
+    "name": "unit",
+    "items": [
+      {
+        "key": "D1",
+        "value": "38793"
+      },
+      {
+        "key": "DA",
+        "value": "CENTRE PROFIT DOA"
+      },
+      {
+        "key": "DB",
+        "value": "CFA BUGEY"
+      },
+      {
+        "key": "DC",
+        "value": "CFA GENNEVILLIERS"
+      },
+      {
+        "key": "DD",
+        "value": "CFA LA PEROLLIERE"
+      },
+      {
+        "key": "DE",
+        "value": "CFA NANTES-MONTLUC"
+      },
+      {
+        "key": "DF",
+        "value": "CFA SAINTE TULLE"
+      },
+      {
+        "key": "DG",
+        "value": "CORSE - RESEAU"
+      },
+      {
+        "key": "DH",
+        "value": "CP TECHNIQUE CORSE"
+      },
+      {
+        "key": "DI",
+        "value": "REUNION RESEAU"
+      },
+      {
+        "key": "DJ",
+        "value": "CP TECHNIQUE GUADELOUPE"
+      },
+      {
+        "key": "DK",
+        "value": "CP TECHNIQUE GUYANE"
+      },
+      {
+        "key": "DL",
+        "value": "CSP AOA ET SERVICES"
+      },
+      {
+        "key": "DM",
+        "value": "CSP COMPTABILITE"
+      },
+      {
+        "key": "DN",
+        "value": "CSP INFO & TELECOM"
+      },
+      {
+        "key": "DO",
+        "value": "CP TECHNIQUE REUNION"
+      },
+      {
+        "key": "DP",
+        "value": "CSP RESSOURCES HUMAINES"
+      },
+      {
+        "key": "DQ",
+        "value": "DCN"
+      },
+      {
+        "key": "DR",
+        "value": "DCT"
+      },
+      {
+        "key": "DS",
+        "value": "DE TECHNIQUE IRIS"
+      },
+      {
+        "key": "DT",
+        "value": "DGSC"
+      },
+      {
+        "key": "DU",
+        "value": "DGSC EDF AUDIT COMPTA"
+      },
+      {
+        "key": "DV",
+        "value": "DIDER"
+      },
+      {
+        "key": "DW",
+        "value": "DIR PARTICIP &  ACT NOUV"
+      },
+      {
+        "key": "DX",
+        "value": "DIRECTION ACHATS DIV GES"
+      },
+      {
+        "key": "DY",
+        "value": "DIRECTION DES ACHATS EDF"
+      },
+      {
+        "key": "DZ",
+        "value": "DIRECTION EUROPE"
+      },
+      {
+        "key": "EA",
+        "value": "311 - DOR IDF"
+      },
+      {
+        "key": "EB",
+        "value": "312 - DOR MANCHE NORD"
+      },
+      {
+        "key": "EC",
+        "value": "313 - DOR EST"
+      },
+      {
+        "key": "ED",
+        "value": "314 - DOR RHONE ALPES"
+      },
+      {
+        "key": "EE",
+        "value": "315 - DOR MEDITERRANEE"
+      },
+      {
+        "key": "EF",
+        "value": "316 - DOR SUD OUEST"
+      },
+      {
+        "key": "EG",
+        "value": "317 - DOR OUEST"
+      },
+      {
+        "key": "EH",
+        "value": "318 - DOR CENTRE"
+      },
+      {
+        "key": "EJ",
+        "value": "819 - DOR FNCT CENTRALES"
+      },
+      {
+        "key": "EK",
+        "value": "810 - DPII FNCT"
+      },
+      {
+        "key": "EL",
+        "value": "332 - UCN"
+      },
+      {
+        "key": "EM",
+        "value": "334 - UOI"
+      },
+      {
+        "key": "EN",
+        "value": "336 - SERVAL"
+      },
+      {
+        "key": "HA",
+        "value": "CENTRAUX HYDRO"
+      },
+      {
+        "key": "HB",
+        "value": "CIH"
+      },
+      {
+        "key": "HC",
+        "value": "DTG"
+      },
+      {
+        "key": "HD",
+        "value": "UP ALPES"
+      },
+      {
+        "key": "HE",
+        "value": "UP CENTRE"
+      },
+      {
+        "key": "HF",
+        "value": "UP EST"
+      },
+      {
+        "key": "HG",
+        "value": "UP MED"
+      },
+      {
+        "key": "HH",
+        "value": "UPSO"
+      },
+      {
+        "key": "LU",
+        "value": "LUGDUNUM"
+      },
+      {
+        "key": "M1",
+        "value": "UFPI"
+      },
+      {
+        "key": "M2",
+        "value": "ULM"
+      },
+      {
+        "key": "M3",
+        "value": "UOI"
+      },
+      {
+        "key": "MA",
+        "value": "DIRECTION GROUPE"
+      },
+      {
+        "key": "MB",
+        "value": "DIRECTION INTERNAT & GAZ"
+      },
+      {
+        "key": "MC",
+        "value": "DIRIM"
+      },
+      {
+        "key": "MD",
+        "value": "DIT DIR.INFO TELECOM"
+      },
+      {
+        "key": "ME",
+        "value": "DP&P TECHNIQUE IRIS"
+      },
+      {
+        "key": "MF",
+        "value": "DPD"
+      },
+      {
+        "key": "MG",
+        "value": "DSEEE"
+      },
+      {
+        "key": "MH",
+        "value": "DSP"
+      },
+      {
+        "key": "MJ",
+        "value": "EDF COMPTE D'ENTREPRISE"
+      },
+      {
+        "key": "MK",
+        "value": "EDF GDF BAGNEUX"
+      },
+      {
+        "key": "ML",
+        "value": "EDF GDF GC ILE DE FRANCE"
+      },
+      {
+        "key": "MM",
+        "value": "EDF GDF PARIS NORD"
+      },
+      {
+        "key": "MN",
+        "value": "EDF R&D"
+      },
+      {
+        "key": "MP",
+        "value": "EDF USI IDF SCE CENT MOY"
+      },
+      {
+        "key": "MQ",
+        "value": "FMG"
+      },
+      {
+        "key": "MR",
+        "value": "GAS DIVISION"
+      },
+      {
+        "key": "MS",
+        "value": "GUYANE RESEAU"
+      },
+      {
+        "key": "MT",
+        "value": "RELATION EXT INT & DPRI"
+      },
+      {
+        "key": "MU",
+        "value": "NE PAS UTILISER"
+      },
+      {
+        "key": "MV",
+        "value": "DAIP"
+      },
+      {
+        "key": "MW",
+        "value": "SEI FONCTIONS CENTRALES"
+      },
+      {
+        "key": "MX",
+        "value": "SFP EDF DIVISION COMPTA"
+      },
+      {
+        "key": "MY",
+        "value": "SGMC EDF"
+      },
+      {
+        "key": "MZ",
+        "value": "TDB TECHNIQUE IRI"
+      },
+      {
+        "key": "NA",
+        "value": "CNPE DE BELLEVILLE"
+      },
+      {
+        "key": "NB",
+        "value": "CNPE DE BLAYAIS"
+      },
+      {
+        "key": "NC",
+        "value": "CNPE DE BUGEY"
+      },
+      {
+        "key": "ND",
+        "value": "CNPE DE CATTENOM"
+      },
+      {
+        "key": "NE",
+        "value": "CNPE DE CHINON"
+      },
+      {
+        "key": "NF",
+        "value": "CNPE DE CHOOZ B"
+      },
+      {
+        "key": "NG",
+        "value": "CNPE DE CIVAUX"
+      },
+      {
+        "key": "NH",
+        "value": "CNPE DE CRUAS MEYSSE"
+      },
+      {
+        "key": "NJ",
+        "value": "CNPE DE DAMPIERRE"
+      },
+      {
+        "key": "NK",
+        "value": "CNPE DE FESSENHEIM"
+      },
+      {
+        "key": "NM",
+        "value": "CNPE DE FLAMANVILLE"
+      },
+      {
+        "key": "NN",
+        "value": "CNPE DE FLAMANVILLE 3"
+      },
+      {
+        "key": "NP",
+        "value": "CNPE DE GOLFECH"
+      },
+      {
+        "key": "NQ",
+        "value": "CNPE DE GRAVELINES"
+      },
+      {
+        "key": "NR",
+        "value": "CNPE DE NOGENT"
+      },
+      {
+        "key": "NS",
+        "value": "CNPE DE PALUEL"
+      },
+      {
+        "key": "NT",
+        "value": "CNPE DE PENLY"
+      },
+      {
+        "key": "NU",
+        "value": "CNPE DE SAINT LAURENT"
+      },
+      {
+        "key": "NV",
+        "value": "CNPE DE SAINT ALBAN"
+      },
+      {
+        "key": "NW",
+        "value": "CNPE DU TRICASTIN"
+      },
+      {
+        "key": "PE",
+        "value": "PERDU"
+      },
+      {
+        "key": "RA",
+        "value": "CEIDRE"
+      },
+      {
+        "key": "RB",
+        "value": "CIDEN"
+      },
+      {
+        "key": "RC",
+        "value": "CIPN"
+      },
+      {
+        "key": "RD",
+        "value": "CNEN"
+      },
+      {
+        "key": "RE",
+        "value": "CNEPE"
+      },
+      {
+        "key": "RF",
+        "value": "DAIP - EM"
+      },
+      {
+        "key": "RG",
+        "value": "DAIP - ULM"
+      },
+      {
+        "key": "RH",
+        "value": "DC - DIVIS COMBUSTIBLE"
+      },
+      {
+        "key": "RJ",
+        "value": "DIN - MOYENS CENTRAUX"
+      },
+      {
+        "key": "RK",
+        "value": "DIRECTION ACHAT"
+      },
+      {
+        "key": "RL",
+        "value": "DOAT"
+      },
+      {
+        "key": "RM",
+        "value": "DPN - MOYENS CENTRAUX"
+      },
+      {
+        "key": "RN",
+        "value": "DSP - AOA SERVICE"
+      },
+      {
+        "key": "RP",
+        "value": "DSP - COMPTABILITE"
+      },
+      {
+        "key": "RQ",
+        "value": "DSP - IT DIT"
+      },
+      {
+        "key": "RR",
+        "value": "DSP - MOYENS CENTRAUX"
+      },
+      {
+        "key": "RS",
+        "value": "DSP - RH"
+      },
+      {
+        "key": "RT",
+        "value": "EMTB - MOYENS CENTRAUX"
+      },
+      {
+        "key": "RU",
+        "value": "SEPTEN"
+      },
+      {
+        "key": "RV",
+        "value": "SERVICE PREV SECURITE  D"
+      },
+      {
+        "key": "RW",
+        "value": "UNIE"
+      },
+      {
+        "key": "RX",
+        "value": "UTO"
+      },
+      {
+        "key": "TA",
+        "value": "CIST"
+      },
+      {
+        "key": "TB",
+        "value": "CIT"
+      },
+      {
+        "key": "TC",
+        "value": "NIVEAU CENTRAL DPIT"
+      },
+      {
+        "key": "TD",
+        "value": "SOUS UNITES DPIT"
+      },
+      {
+        "key": "TE",
+        "value": "UP CORDEMAIS"
+      },
+      {
+        "key": "TF",
+        "value": "UP LE HAVRE"
+      },
+      {
+        "key": "TG",
+        "value": "UNITEP"
+      },
+      {
+        "key": "TH",
+        "value": "DIRECTION ASIE PACIFIQUE"
+      },
+      {
+        "key": "TI",
+        "value": "NE PAS UTILISER"
+      },
+      {
+        "key": "TJ",
+        "value": "CP TECHNIQUE MARTINIQUE"
+      },
+      {
+        "key": "TK",
+        "value": "UOF"
+      },
+      {
+        "key": "ZA",
+        "value": "RTE"
+      },
+      {
+        "key": "ZB",
+        "value": "CENTRAUX"
+      },
+      {
+        "key": "ZC",
+        "value": "GDF SUEZ"
+      },
+      {
+        "key": "ZD",
+        "value": "GRT GAZ"
+      },
+      {
+        "key": "ZE",
+        "value": "TIERS"
+      },
+      {
+        "key": "ZF",
+        "value": "VACANT"
+      },
+      {
+        "key": "ZZ",
+        "value": "NC - UNITE NON CONNUE"
+      }
+    ]
+  },
+  "Dic7": {
+    "name": "sub_unit",
+    "items": [
+      {
+        "key": "D01",
+        "value": "E0262 - CP TECH MARTINQ"
+      },
+      {
+        "key": "D02",
+        "value": "E0263 - CP TECH REUNION"
+      },
+      {
+        "key": "D03",
+        "value": "E0761 - GUADELOU RESEAU"
+      },
+      {
+        "key": "D04",
+        "value": "E1300"
+      },
+      {
+        "key": "D05",
+        "value": "E1599"
+      },
+      {
+        "key": "D06",
+        "value": "E5170 - CNPE CHINON"
+      },
+      {
+        "key": "D07",
+        "value": "E51HB"
+      },
+      {
+        "key": "D08",
+        "value": "E5906"
+      },
+      {
+        "key": "D09",
+        "value": "E8300 - GAS DIVISION"
+      },
+      {
+        "key": "D10",
+        "value": "E9230"
+      },
+      {
+        "key": "D11",
+        "value": "E9852"
+      },
+      {
+        "key": "D12",
+        "value": "E0257 - CP TECH CORSE"
+      },
+      {
+        "key": "D13",
+        "value": "E0261 - CP TECH GUADELOU"
+      },
+      {
+        "key": "D14",
+        "value": "E0264 - CP TECH GUYANE"
+      },
+      {
+        "key": "D15",
+        "value": "E0757 - CORSE - RESEAU"
+      },
+      {
+        "key": "D16",
+        "value": "E0763 - REUNION RESEAU"
+      },
+      {
+        "key": "D17",
+        "value": "E0764 - GUYANE RESEAU"
+      },
+      {
+        "key": "D18",
+        "value": "E0908 - FONCT CENTRALES"
+      },
+      {
+        "key": "D19",
+        "value": "E1600"
+      },
+      {
+        "key": "D20",
+        "value": "E5890"
+      },
+      {
+        "key": "D21",
+        "value": "E5971 - DCT"
+      },
+      {
+        "key": "D22",
+        "value": "E5972 - DSEEE"
+      },
+      {
+        "key": "D23",
+        "value": "E5973 - DIDER"
+      },
+      {
+        "key": "D24",
+        "value": "E5992 - DE TECHNIQ IRIS"
+      },
+      {
+        "key": "D25",
+        "value": "E8103 - DIR PART ACT NOU"
+      },
+      {
+        "key": "D26",
+        "value": "E8104 - DIRECTION EUROPE"
+      },
+      {
+        "key": "D27",
+        "value": "E8105 - DIR INTER & GAZ"
+      },
+      {
+        "key": "D28",
+        "value": "E8106 - REL EXT INTERNAT"
+      },
+      {
+        "key": "D29",
+        "value": "E8610 - R&D"
+      },
+      {
+        "key": "D30",
+        "value": "E8624 - CFA"
+      },
+      {
+        "key": "D31",
+        "value": "E8627 - DPD"
+      },
+      {
+        "key": "D32",
+        "value": "E8628"
+      },
+      {
+        "key": "D33",
+        "value": "E8675 - DGSC"
+      },
+      {
+        "key": "D34",
+        "value": "E8676 - DIRIM"
+      },
+      {
+        "key": "D35",
+        "value": "E8700"
+      },
+      {
+        "key": "D36",
+        "value": "E8952 - TDB TECHN IRI"
+      },
+      {
+        "key": "D37",
+        "value": "E8975 - DIRECTION GROUPE"
+      },
+      {
+        "key": "D38",
+        "value": "E8981"
+      },
+      {
+        "key": "D39",
+        "value": "E8992"
+      },
+      {
+        "key": "D40",
+        "value": "E9220"
+      },
+      {
+        "key": "D41",
+        "value": "E9997"
+      },
+      {
+        "key": "D99",
+        "value": "E8301 - GAS DIVISION"
+      },
+      {
+        "key": "E01",
+        "value": "E0074"
+      },
+      {
+        "key": "E02",
+        "value": "E0113 - DP&P TECH IRIS"
+      },
+      {
+        "key": "E03",
+        "value": "E0311 - REG IDF TC EL"
+      },
+      {
+        "key": "E04",
+        "value": "E0312 - REG MMN TC EL"
+      },
+      {
+        "key": "E05",
+        "value": "E0313 - REG EST TC EL"
+      },
+      {
+        "key": "E06",
+        "value": "E0314 - REG S-EST TC EL"
+      },
+      {
+        "key": "E07",
+        "value": "E0315 - REG MED TC EL"
+      },
+      {
+        "key": "E08",
+        "value": "E0316 - REG S-OUE TC EL"
+      },
+      {
+        "key": "E09",
+        "value": "E0317 - REG OUEST TC EL"
+      },
+      {
+        "key": "E10",
+        "value": "E0318 - REG CENTRE TC EL"
+      },
+      {
+        "key": "E11",
+        "value": "E0319 - SOC NATION TC EL"
+      },
+      {
+        "key": "E12",
+        "value": "E0321 - REG IDF RELEC"
+      },
+      {
+        "key": "E13",
+        "value": "E0322 - REG MMN R ELEC"
+      },
+      {
+        "key": "E14",
+        "value": "E0323 - REG EST R ELEC"
+      },
+      {
+        "key": "E15",
+        "value": "E0324 - REG S-EST RELEC"
+      },
+      {
+        "key": "E16",
+        "value": "E0325 - REG MED RELEC"
+      },
+      {
+        "key": "E17",
+        "value": "E0326 - REG S-OUE RELEC"
+      },
+      {
+        "key": "E18",
+        "value": "E0327 - REG OUEST RELEC"
+      },
+      {
+        "key": "E19",
+        "value": "E0328 - REG CENTRE RELEC"
+      },
+      {
+        "key": "E20",
+        "value": "E0332 - UCN ELEC"
+      },
+      {
+        "key": "E21",
+        "value": "E0333 - FC CENTRALES EDF"
+      },
+      {
+        "key": "E22",
+        "value": "E0334 - UOI ELEC"
+      },
+      {
+        "key": "E23",
+        "value": "E0337 - SERVAL NANCY EL"
+      },
+      {
+        "key": "E24",
+        "value": "E0339 - SERVAL AIX EL"
+      },
+      {
+        "key": "E25",
+        "value": "E0342 - SERVAL ORLEAN EL"
+      },
+      {
+        "key": "E26",
+        "value": "E0343 - SERVAL ST-QUT EL"
+      },
+      {
+        "key": "E27",
+        "value": "E0819 - ERD  NATIONAL"
+      },
+      {
+        "key": "E28",
+        "value": "E0860 - ERDF - UOF"
+      },
+      {
+        "key": "E29",
+        "value": "E0865 - ERDF - UOA"
+      },
+      {
+        "key": "E30",
+        "value": "E2311 - REG IDF TC GAZ"
+      },
+      {
+        "key": "E31",
+        "value": "E2321"
+      },
+      {
+        "key": "E32",
+        "value": "E2322"
+      },
+      {
+        "key": "E33",
+        "value": "E2323"
+      },
+      {
+        "key": "E34",
+        "value": "E2324"
+      },
+      {
+        "key": "E35",
+        "value": "E2325"
+      },
+      {
+        "key": "E36",
+        "value": "E2326"
+      },
+      {
+        "key": "E37",
+        "value": "E2327"
+      },
+      {
+        "key": "E38",
+        "value": "E2328"
+      },
+      {
+        "key": "E39",
+        "value": "E3092 - CEIDRE"
+      },
+      {
+        "key": "E40",
+        "value": "E8106 - REL EXT INTERNAT"
+      },
+      {
+        "key": "E41",
+        "value": "E8620 - FMG"
+      },
+      {
+        "key": "E42",
+        "value": "E9829"
+      },
+      {
+        "key": "E43",
+        "value": "E9840"
+      },
+      {
+        "key": "E44",
+        "value": "E2312"
+      },
+      {
+        "key": "E45",
+        "value": "E2314"
+      },
+      {
+        "key": "E46",
+        "value": "E0810 - DPII FNCT"
+      },
+      {
+        "key": "E47",
+        "value": "E0336 - SERVAL"
+      },
+      {
+        "key": "EZ1",
+        "value": "GDF"
+      },
+      {
+        "key": "EZ2",
+        "value": "SOFILO"
+      },
+      {
+        "key": "EZ3",
+        "value": "TIERS"
+      },
+      {
+        "key": "EZ4",
+        "value": "TIERS ICADE"
+      },
+      {
+        "key": "EZ5",
+        "value": "CHEMIN CHRISTINE ??"
+      },
+      {
+        "key": "EZ6",
+        "value": "DGL"
+      },
+      {
+        "key": "EZZ",
+        "value": "NC - SS UNITE NON CONNUE"
+      },
+      {
+        "key": "GDF",
+        "value": "GDF SUEZ"
+      },
+      {
+        "key": "GRT",
+        "value": "GRT GAZ"
+      },
+      {
+        "key": "HA1",
+        "value": "E5003 - MC HYDRO"
+      },
+      {
+        "key": "HB1",
+        "value": "E5503 - CIH"
+      },
+      {
+        "key": "HC1",
+        "value": "E5502 - DTG"
+      },
+      {
+        "key": "HD1",
+        "value": "E5551 - ETAT MAJOR-ALPES"
+      },
+      {
+        "key": "HD2",
+        "value": "E5555 - GEH ECRINS VERC"
+      },
+      {
+        "key": "HD3",
+        "value": "E5553 - GEH SAV MONTBL"
+      },
+      {
+        "key": "HD4",
+        "value": "E5556 - GEH VAL MAURIENN"
+      },
+      {
+        "key": "HE1",
+        "value": "E5583 - GEH DORDOGNE"
+      },
+      {
+        "key": "HE2",
+        "value": "E5585 - GEH LIMOGES"
+      },
+      {
+        "key": "HE3",
+        "value": "E5648 - GEH LOIRE ARDECH"
+      },
+      {
+        "key": "HE4",
+        "value": "E5582 - GEH LOT TRUYERE"
+      },
+      {
+        "key": "HE5",
+        "value": "E5586 - GEH RANCE ENERGI"
+      },
+      {
+        "key": "HF1",
+        "value": "E5631 - ETAT MAJOR-EST"
+      },
+      {
+        "key": "HF2",
+        "value": "E5638 - GEH JURA BOURG"
+      },
+      {
+        "key": "HF3",
+        "value": "E5635 - GEH REVIN ST NIC"
+      },
+      {
+        "key": "HF4",
+        "value": "E5636 - GEH RHIN"
+      },
+      {
+        "key": "HG1",
+        "value": "E5561 - ETAT MAJOR-MED"
+      },
+      {
+        "key": "HG2",
+        "value": "E5568 - GEH DURANCE"
+      },
+      {
+        "key": "HG3",
+        "value": "E5567 - GEH AZUR-ECRINS"
+      },
+      {
+        "key": "HH1",
+        "value": "E5574 - GEH ADOUR GAVES"
+      },
+      {
+        "key": "HH2",
+        "value": "E5576 - GEH AUDE ARIEGE"
+      },
+      {
+        "key": "HH3",
+        "value": "E5575 - GEH GARONNE"
+      },
+      {
+        "key": "HH4",
+        "value": "E5578 - GEH TARN AGOUT"
+      },
+      {
+        "key": "HH5",
+        "value": "E5577 - GEH PYRENEES"
+      },
+      {
+        "key": "LUG",
+        "value": "LUGDUNUM"
+      },
+      {
+        "key": "NA1",
+        "value": "E5370 - CNPE BELLEVILLE"
+      },
+      {
+        "key": "NB1",
+        "value": "E5150 - CNPE BLAYAIS"
+      },
+      {
+        "key": "NC1",
+        "value": "E5110 - CNPE BUGEY"
+      },
+      {
+        "key": "ND1",
+        "value": "E5320 - CNPE CATTENOM"
+      },
+      {
+        "key": "NE1",
+        "value": "E5170 - CNPE CHINON"
+      },
+      {
+        "key": "NF1",
+        "value": "E5430 - CNPE CHOOZ B"
+      },
+      {
+        "key": "NG1",
+        "value": "E5420 - CNPE CIVAUX"
+      },
+      {
+        "key": "NH1",
+        "value": "E5180 - CNPE CRUAS MEYSS"
+      },
+      {
+        "key": "NJ1",
+        "value": "E5140 - CNPE DAMPIERRE"
+      },
+      {
+        "key": "NK1",
+        "value": "E5190 - CNPE FESSENHEIM"
+      },
+      {
+        "key": "NM1",
+        "value": "E5330 - CNPE FLAMANVILLE"
+      },
+      {
+        "key": "NN1",
+        "value": "E5531 - CNPE FLAMANVIL-3"
+      },
+      {
+        "key": "NP1",
+        "value": "E5360 - CNPE GOLFECH"
+      },
+      {
+        "key": "NQ1",
+        "value": "E5130 - CNPE GRAVELINES"
+      },
+      {
+        "key": "NR1",
+        "value": "E5350 - CNPE NOGENT"
+      },
+      {
+        "key": "NS1",
+        "value": "E5310 - CNPE PALUEL"
+      },
+      {
+        "key": "NT1",
+        "value": "E5340 - CNPE PENLY"
+      },
+      {
+        "key": "NU1",
+        "value": "E5160 - CNPE ST LAURENT"
+      },
+      {
+        "key": "NV1",
+        "value": "E5380 - CNPE SAINT ALBAN"
+      },
+      {
+        "key": "NW1",
+        "value": "E5120 - CNPE TRICASTIN"
+      },
+      {
+        "key": "PER",
+        "value": "PERDU"
+      },
+      {
+        "key": "R01",
+        "value": "E3051 - CNEN"
+      },
+      {
+        "key": "R02",
+        "value": "E3052 - CNEPE"
+      },
+      {
+        "key": "R03",
+        "value": "E3055 - CIPN"
+      },
+      {
+        "key": "R04",
+        "value": "E3056 - CIDEN"
+      },
+      {
+        "key": "R05",
+        "value": "E3059 - SEPTEN"
+      },
+      {
+        "key": "R06",
+        "value": "E3091 - MOY CENTRAUX DIN"
+      },
+      {
+        "key": "R07",
+        "value": "E5002 - DPN"
+      },
+      {
+        "key": "R08",
+        "value": "E5007 - UNIE"
+      },
+      {
+        "key": "R09",
+        "value": "E5009 - MOYENS CENTR DPI"
+      },
+      {
+        "key": "R10",
+        "value": "E5014 - CENT PROFIT DOA"
+      },
+      {
+        "key": "R11",
+        "value": "E5130 - CNPE GRAVELINES"
+      },
+      {
+        "key": "R12",
+        "value": "E5200 - DCN"
+      },
+      {
+        "key": "R13",
+        "value": "E5700 - UTO"
+      },
+      {
+        "key": "R14",
+        "value": "E5900"
+      },
+      {
+        "key": "R15",
+        "value": "E5911 - MC DTEAM"
+      },
+      {
+        "key": "R16",
+        "value": "E5912 - ULM"
+      },
+      {
+        "key": "R17",
+        "value": "E5913 - UNITEP"
+      },
+      {
+        "key": "R18",
+        "value": "E5914 - UFPI"
+      },
+      {
+        "key": "R19",
+        "value": "E8930 - ETAT MAJOR DSP"
+      },
+      {
+        "key": "R20",
+        "value": "E8931 - CSP RH"
+      },
+      {
+        "key": "R21",
+        "value": "E8932 - CSP C"
+      },
+      {
+        "key": "R22",
+        "value": "E8933 - CSP IT"
+      },
+      {
+        "key": "R23",
+        "value": "E8934 - CSP AOA + SERV"
+      },
+      {
+        "key": "R24",
+        "value": "E8982 - DIR DES ACHATS"
+      },
+      {
+        "key": "R25",
+        "value": "E8983"
+      },
+      {
+        "key": "R26",
+        "value": "E8107 - DIR ASIE PACIFIQ"
+      },
+      {
+        "key": "RTE",
+        "value": "RTE"
+      },
+      {
+        "key": "TA1",
+        "value": "E5383 - CIST"
+      },
+      {
+        "key": "TB1",
+        "value": "E5382 - CIT"
+      },
+      {
+        "key": "TC1",
+        "value": "E5381 - NIV CENTRAL DPIT"
+      },
+      {
+        "key": "TD1",
+        "value": "E5392 - CPT ARAMON"
+      },
+      {
+        "key": "TD2",
+        "value": "E5393 - CPT BLENOD"
+      },
+      {
+        "key": "TD3",
+        "value": "E5394 - CPT BOUCHAIN"
+      },
+      {
+        "key": "TD4",
+        "value": "E5395 - CPT LA MAXE"
+      },
+      {
+        "key": "TD5",
+        "value": "E5396 - CPT MARTIGUES"
+      },
+      {
+        "key": "TD6",
+        "value": "E5397 - CPT PORCHEVILLE"
+      },
+      {
+        "key": "TD7",
+        "value": "E5399 - CPT VITRY"
+      },
+      {
+        "key": "TD8",
+        "value": "E5390 - SIEGE UPTI"
+      },
+      {
+        "key": "TD9",
+        "value": "E5391 - CPE"
+      },
+      {
+        "key": "TE1",
+        "value": "E5384 - UP CORDEMAIS"
+      },
+      {
+        "key": "TF1",
+        "value": "E5385 - UP LE HAVRE"
+      },
+      {
+        "key": "VAC",
+        "value": "VACANT"
+      },
+      {
+        "key": "ZZZ",
+        "value": "NC - SS UNITE NON CONNUE"
+      }
+    ]
+  },
+  "Dic8": {
+    "name": "legal_owner_division",
+    "items": [
+      {
+        "key": "C27",
+        "value": "C27"
+      },
+      {
+        "key": "EDF",
+        "value": "EDF"
+      },
+      {
+        "key": "ENE",
+        "value": "ENEDIS"
+      },
+      {
+        "key": "GGF",
+        "value": "GGF"
+      },
+      {
+        "key": "LAG",
+        "value": "LAGUNE GARDEN"
+      },
+      {
+        "key": "NEO",
+        "value": "LOGIEST (EX NEOLIA)"
+      },
+      {
+        "key": "SAF",
+        "value": "SAFRAN"
+      },
+      {
+        "key": "SNI",
+        "value": "CDC HABITAT"
+      },
+      {
+        "key": "TIE",
+        "value": "TIERS"
+      }
+    ]
+  },
+  "Dic9": {
+    "name": "visit_status",
+    "items": [
+      {
+        "key": "check-parent",
+        "value": "Voir lot père"
+      },
+      {
+        "key": "end-management",
+        "value": "Fin de gestion"
+      },
+      {
+        "key": "occupied",
+        "value": "Occupé"
+      }
+    ]
+  }
+}

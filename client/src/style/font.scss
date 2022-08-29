@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Icon";
+  src: url('./fonts/Icon.eot'), url('./fonts/Icon.eot?#iefix') format("embedded-opentype"),
+    url('./fonts/Icon.woff') format("woff"), url('./fonts/Icon.ttf') format("truetype");
+  font-display: swap;
+}
+
+.icon {
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-family: "Icon" !important;
+
+  &.logout:before {
+    content: "\e901";
+  }
+  &.info:before {
+    content: "\e902";
+  }
+  &.icon-down-arrow-circle:before {
+    content: "\e900";
+  }
+}

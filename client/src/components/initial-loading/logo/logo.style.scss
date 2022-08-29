@@ -1,0 +1,25 @@
+#logo {
+  position: relative;
+  overflow: hidden;
+  width: 98px;
+  height: 106px;
+  .wave {
+    background: url('../../../images/wave.png') repeat-x;
+    position: absolute;
+    top: 49px;
+    width: 194px;
+    height: 51px;
+    animation: logo 2s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+    transform: translate3d(0, 0, 0);
+    z-index: 0;
+  }
+}
+
+@keyframes logo {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -97px;
+  }
+}

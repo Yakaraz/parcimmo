@@ -1,0 +1,12 @@
+@import '../../../style/main.scss';
+
+[data-component='sidebar'] {
+  
+  .aside {
+    box-shadow: 3px 0px 0px 0px $grey;
+  }
+
+  .has-text-primary-medium {
+    color: $primary-medium;
+  }
+}

@@ -1,0 +1,35 @@
+@import '../../style/main.scss';
+
+[data-component='lotdetails'] {
+  .column > .container {
+    padding: 0.5em 2em;
+  }
+  .column > .container:first-child {
+    padding-top: 2em;
+  }
+
+  .lot-props > .container {
+    margin-top: 0.75em;
+  }
+  .lot-props .container + .container {
+    border-top: solid 1px $grey;
+  }
+  .has-text-primary-medium {
+    color: $primary-medium;
+  }
+  .aside {
+    box-shadow: 3px 0px 0px 0px $grey;
+  }
+  .tabs ul li a {
+    background-color: $grey;
+    border:none;
+  }
+
+  .tabs {
+    border-bottom: solid 2px $grey-title;
+  }
+  table thead th {
+    color: $primary-medium;
+    background-color: $grey;
+  }
+}

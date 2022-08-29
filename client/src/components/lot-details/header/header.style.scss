@@ -1,0 +1,34 @@
+@import '../../../style/main.scss';
+
+[data-component='header'] {
+  .tabs ul li a {
+    background-color: $grey;
+    border: none;
+  }
+
+  .tabs {
+    border-bottom: solid 2px $grey-title;
+
+    ul{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      li {
+        flex: 1
+      }
+    }
+  }
+
+  a {
+    &:hover{
+      background: $primary-medium !important;
+      color: $white !important;
+    }
+  }
+
+  .active {
+    background: $primary-medium;
+    color: $white;
+  }
+}

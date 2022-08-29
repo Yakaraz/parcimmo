@@ -1,0 +1,99 @@
+#!/bin/bash
+set -o nounset
+set -o errexit
+
+# Reset in case getopts has been used previously in the shell.
+OPTIND=1
+
+# Initialize variables.
+env=''
+
+# Get cli options
+while getopts "he:" opt; do
+  case $opt in
+    h)
+        show_help
+        exit 0
+        ;;
+    e)
+        env=".$OPTARG"
+        ;;
+    *)
+        show_help >&2
+        exit 1
+        ;;
+  esac
+done
+
+# Shift off the options and optional --.
+shift "$((OPTIND-1))"
+
+# Common operations
+initialize() {
+    down
+    build
+    start
+}
+
+start() {
+    docker-compose -f docker-compose.yml up -d --remove-orphans
+    sleep 1
+    ps
+}
+
+build() {
+    docker-compose -f docker-compose.yml build --no-cache
+}
+
+stop() {
+    docker-compose -f docker-compose.yml stop
+}
+
+down() {
+    docker-compose -f docker-compose.yml down --remove-orphans
+}
+
+# Usage info
+show_help() {
+cat << EOF
+Usage:  ${0##*/} [COMMAND])
+
+Commands:
+  initialize                  Start the project
+  start                       Start docker containers
+  build                       Rebuild image
+  stop                        Stop docker containers
+  down                        Remove docker containers
+
+EOF
+}
+
+# Show help if no argument was supplied
+if [ $# -eq 0 ]
+  then
+    show_help >&2
+    exit 1
+fi
+
+case "$1" in
+ initialize)
+        initialize
+        ;;
+ start)
+        start
+        ;;
+ build)
+        build
+        ;;
+ stop)
+        stop
+        ;;       
+ down)
+        down
+        ;;
+ *)
+        show_help >&2
+        exit 1
+esac
+
+exit 0

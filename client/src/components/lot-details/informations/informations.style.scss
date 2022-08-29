@@ -1,0 +1,18 @@
+@import '../../../style/main.scss';
+
+[data-component='informations'] {
+  .column > .container {
+    padding: 0.5em 2em;
+  }
+  .column > .container:first-cœhild {
+    padding-top: 2em;
+  }
+
+  .tabs {
+    border-bottom: solid 2px $grey-title;
+  }
+  table thead th {
+    color: $primary-medium;
+    background-color: $grey;
+  }
+}

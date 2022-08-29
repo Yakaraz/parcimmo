@@ -1,0 +1,11 @@
+@import '../../../style/main.scss';
+
+[data-component='timeline'] {
+  .box {
+    margin: 0 !important;
+  }
+
+  [data-component='Widget/Button'] {
+    height: auto;
+  }
+}

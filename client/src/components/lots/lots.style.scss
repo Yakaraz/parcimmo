@@ -1,0 +1,62 @@
+@import '../../style/main.scss';
+
+[data-component='lots'] {
+  .is-row:first-child {
+    margin-top: 0;
+  }
+
+  .is-title {
+    margin-bottom: 0.2rem !important;
+    padding: 0 1.25rem;
+    border-radius: 6px;
+  }
+
+  $size-8: 0.5rem;
+
+  @keyframes blinking {
+    0% {
+      opacity: 0.1;
+    }
+    70% {
+      opacity: 0.7;
+    }
+    100% {
+      opacity: 0.2;
+    }
+  }
+
+  .is-blinking {
+    animation: blinking 2s infinite;
+    animation-timing-function: linear;
+  }
+
+  .loading-placeholder {
+    height: 12px;
+    width: 50px;
+    background: rgba(0, 0, 0, 0.1);
+
+    &:not(:last-child) {
+      margin-bottom: $size-8;
+    }
+
+    &.large {
+      height: 16px;
+    }
+
+    &.long {
+      width: 90px;
+    }
+
+    &.long.large {
+      width: 1me10px;
+    }
+  }
+
+  .flip {
+    transform: rotate(180deg);
+  }
+  .head-column {
+    outline: none;
+    cursor: pointer;
+  }
+}

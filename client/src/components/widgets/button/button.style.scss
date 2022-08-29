@@ -1,0 +1,118 @@
+@import '../../../style/main.scss';
+
+a[data-component='Widget/Button'].button,
+[data-component='Widget/Button'].button {
+  background-color: $lightblue;
+  border-radius: $radius;
+  color: $white;
+  font-weight: $weight-semibold;
+  border: 0px;
+  text-decoration: none;
+  font-style: normal;
+
+  &:hover {
+    background-color: $lightblue2;
+    color: $white;
+  }
+
+  &:active,
+  &:focus,
+  &:focus-within,
+  &:visited,
+  &:not(:active) {
+    background-color: $lightblue;
+    border-radius: $radius;
+    color: $white;
+    font-weight: $weight-semibold;
+    border: none;
+    box-shadow: none;
+  }
+
+  &:disabled {
+    background-color: $lightblue;
+    opacity: 0.5;
+    color: $white;
+  }
+
+  &.is-small {
+    font-size: $size-6;
+    width: 150px;
+    height: 40px;
+  }
+
+  &.is-medium {
+    font-size: $size-6;
+    width: 170px;
+    height: 45px;
+
+    &.is-uppercase {
+      font-size: $size-7;
+    }
+  }
+
+  &.is-large {
+    font-size: $size-4;
+    width: 240px;
+    height: 60px;
+    padding: 0 1rem;
+    line-height: 60px;
+  }
+
+  &.underlined {
+    background-color: $white;
+    border: 1px solid $lightblue;
+    color: $lightblue;
+
+    &:active,
+    &:focus {
+      background-color: $white;
+      border: 1px solid $lightblue;
+      color: $lightblue;
+      box-shadow: none;
+    }
+
+    &:hover {
+      background-color: $white;
+      border: 1px solid $lightblue2;
+      color: $lightblue2;
+    }
+
+    &:disabled {
+      background-color: $white;
+      border: 1px solid $bluegray;
+      color: $bluegray;
+      opacity: 0.75;
+    }
+  }
+
+  &.light {
+    border: 0;
+    background-color: $white;
+    box-shadow: $box-shadow-normal;
+    color: $lightblue;
+
+    &:active,
+    &:focus {
+      border: 0;
+      background-color: $white;
+      box-shadow: $box-shadow-normal;
+      color: $lightblue;
+      box-shadow: none;
+    }
+
+    &:hover {
+      border: 0;
+      background-color: $white;
+      box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+      color: $lightblue2;
+    }
+
+    &:disabled {
+      border: 0;
+      background-color: $white;
+      box-shadow: none;
+      color: $gray;
+      opacity: 0.75;
+    }
+  }
+}

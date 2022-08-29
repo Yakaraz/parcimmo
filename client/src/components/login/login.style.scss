@@ -1,0 +1,49 @@
+@import '../../style/main.scss';
+
+
+[data-is="login"] {
+  width:100%;
+  min-height: 100vh;
+  background-image: url('../../images/building.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #96DCDA;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  a,p{
+    font-size: 1.5rem;
+  }
+  
+  h2{
+    font-size: 1.6em;
+  }
+
+  input {
+    background-color: $lightgrey;
+   
+  }
+
+  input, button, a {
+    margin-top:3rem;
+  }
+
+  .login-container{
+    padding-left: 0px;
+  }
+ 
+  // .login-bg{
+  //   background-image: url('/images/login-bg.png');
+  //   background-size: cover;
+  //   width:400px;
+  //   height:100vh;
+  // }
+
+  .back-to-gw{
+    color:$blue;
+    text-decoration:none;
+  }
+
+
+}

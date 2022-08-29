@@ -1,0 +1,48 @@
+version: '3'
+
+services:
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=parcimmo
+      - MYSQL_USER=parcimmo
+      - MYSQL_PASSWORD=parcimmo_pass 
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./docker/mysql/custom.cnf:/etc/mysql/conf.d/custom.cnf
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    restart: unless-stopped
+    environment:
+      - PMA_HOST=db
+      - MYSQL_DATABASE=parcimmo
+      - MYSQL_USER=parcimmo
+      - MYSQL_PASSWORD=parcimmo_pass
+    ports:
+      - "8080:80"
+    depends_on:
+      - db
+
+  spring-api:
+    build: ./api
+    depends_on:
+       - db
+    restart: always
+    environment:
+      - DB_HOST=db
+      - DB_PORT=3306
+      - DB_USER=parcimmo
+      - DB_PASS=parcimmo_pass
+      - DB_NAME=parcimmo
+      - WAIT_HOSTS=mysql:3306
+      - WAIT_HOSTS_TIMEOUT=180
+    links:
+      - db:mysql
+    ports:
+      - "9090:9090"
+    volumes:
+      - "${HOME}/.m2:/root/.m2"

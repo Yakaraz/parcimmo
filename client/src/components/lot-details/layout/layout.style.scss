@@ -1,0 +1,12 @@
+@import '../../../style/main.scss';
+
+[data-component='header'] {
+  .tabs ul li a {
+    background-color: $grey;
+    border: none;
+  }
+
+  .tabs {
+    border-bottom: solid 2px $grey-title;
+  }
+}

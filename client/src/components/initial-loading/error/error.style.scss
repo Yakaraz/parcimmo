@@ -1,0 +1,46 @@
+@import '../../../style/main.scss';
+
+#initialization-error {
+  width:100%;
+  min-height: 100vh;
+  // background-image: url('/images/search-background.jpeg');
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-color: #96DCDA;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+  .infoBox {
+    font-style: normal;
+    font-family: Arial Rounded MT Bold;
+    width: 535px;
+    height:180px;
+    background-color:$white;
+    border-radius : 12px;
+    padding:20px;
+    font-weight: 700;
+
+    .highlighted {
+      color:white;
+      background-color:#7CD3E0;
+    }
+  }
+
+  button {
+    position:relative;
+    left:72%;
+    top:20px;
+    font-style: normal;
+    font-family: Arial Rounded MT Bold;
+    text-transform: uppercase;
+    background-color:$darkblue;
+    color:$white;
+    border-radius : 8px;
+    height:2.5rem;
+    width:9rem;
+    cursor:pointer;
+    outline-style:none;
+  }
+}
