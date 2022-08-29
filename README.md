@@ -5,7 +5,7 @@
 These instructions will get you a copy of the project
 
 ```
-git clone git@gitlab.com:Yakaraz/parcimmo.git
+git clone git@github.com:Yakaraz/parcimmo.git
 ```
 
 See deployment section below to deploy the project
@@ -35,7 +35,6 @@ start project by using Docker
 ```bash
 ./parcimmo-service initialize
 ```
-
 
 NOTE : Actually the front is not included in the docker-compose due to lack of time.
 
