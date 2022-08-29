@@ -14,7 +14,6 @@ export default ({ match }) => {
     surface: rootState.lotdetails.surface,
     gazDeliveryPoint: rootState.lotdetails.gazDeliveryPoint,
     electricDeliveryPoint: rootState.lotdetails.electricDeliveryPoint,
-    nbNeededActions: rootState.lotdetails.nbNeededActions,
     fetching: rootState.lotdetails.fetching,
     propertyTypeDico: rootState.initialloading.dictionaries.propertyType,
   }))
@@ -48,11 +47,9 @@ export default ({ match }) => {
                   )}
                 </td>
                 <td>
-                  {state.nbNeededActions || (
-                    <span className="has-text-grey-light is-italic">
-                      Non renseigné
-                    </span>
-                  )}
+                  <span className="has-text-grey-light is-italic">
+                    Non renseigné
+                  </span>
                 </td>
               </tr>
             </tbody>

@@ -27,9 +27,6 @@ export const mapDetails = pick([
   'surface',
   'gazDeliveryPoint',
   'electricDeliveryPoint',
-  'businessUnit',
-  'businessSubUnit',
   'teams',
   'users',
-  'nbNeededActions',
 ])

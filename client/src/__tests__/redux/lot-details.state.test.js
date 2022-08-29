@@ -28,15 +28,11 @@ describe('Redux :: State :: LotDetails', () => {
       surface: '',
       gazDeliveryPoint: '',
       electricDeliveryPoint: '',
-      businessUnit: '',
-      businessSubUnit: '',
       teams: '',
       users: '',
-      nbNeededActions: '',
       fetching: true,
       propertyTypeDico: [],
-      unitDico: [],
-      subUnitDico: [],
+      errors: [],
     })
   })
 
@@ -60,15 +56,11 @@ describe('Redux :: State :: LotDetails', () => {
       surface: '',
       gazDeliveryPoint: '',
       electricDeliveryPoint: '',
-      businessUnit: '',
-      businessSubUnit: '',
       teams: '',
       users: '',
-      nbNeededActions: '',
       fetching: true,
       propertyTypeDico: [],
-      unitDico: [],
-      subUnitDico: [],
+      errors: [],
     }
     const state = LotDetails.default(initialState, LotDetails.received(props))
     expect(state).toEqual({
@@ -89,15 +81,11 @@ describe('Redux :: State :: LotDetails', () => {
       surface: '',
       gazDeliveryPoint: '',
       electricDeliveryPoint: '',
-      businessUnit: '',
-      businessSubUnit: '',
       teams: '',
       users: '',
-      nbNeededActions: '',
       fetching: false,
       propertyTypeDico: [],
-      unitDico: [],
-      subUnitDico: [],
+      errors: [],
     })
   })
 })

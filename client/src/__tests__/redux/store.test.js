@@ -1,6 +1,5 @@
-import reducer from '../../redux/state'
 import { identity } from 'ramda'
-import Store from '../../redux/Store'
+import Store from '../../redux/store'
 
 describe('Redux :: Store', () => {
   it('merge the store middleware', () => {
